@@ -13,8 +13,9 @@
  *
  * 但咋说也是咱俩在一起之后第一个节日
  * 寻思了一下啥都不干说不过去鸭
- *
+ * 
  * 那就按程序员的方式来吧
+ * 也不算不听你话
  *
  */
 
@@ -31,11 +32,11 @@
  * 不着急，一会儿再说
  *
  * 黑白看着贼无趣嘞，一点都不高级
- * 改一改
+ * 咱改一改
  */
 
 html {
-  background: rgb(63, 82, 99);
+  background: rgb(206, 200, 151);
 }
 
 /**
@@ -56,7 +57,7 @@ pre, a {
 
 pre:not(:empty) {
   overflow: auto;
-  background: rgb(48, 48, 48);
+  background: rgb(86, 83, 64);
   border: 1px solid #ccc;
   max-height: 44.6%;
   width: 49%;
@@ -70,7 +71,7 @@ pre:not(:empty) {
 
 /**
  * 好了
- * 放到👉去
+ * 把这个放到右边去
  */
 
 #style-text {
@@ -79,13 +80,13 @@ pre:not(:empty) {
 }
 
 /**
- * This is good!
- * 但白字贼单调，不够酷炫
+ * 可以！
+ * 但白字贼单调嘞，不够酷炫
  * 再来
  * 代码高亮准备
  */
 
-.comment       { color: #857F6B; font-style: italic; }
+.comment       { color: #A39F93; font-style: italic; }
 .selector      { color: #E69F0F; }
 .selector .key { color: #64D5EA; }
 .key           { color: #64D5EA; }
@@ -93,11 +94,10 @@ pre:not(:empty) {
 .value.px      { color: #F92772; }
 
 /**
- * Okay!
  * That's what I'm talking about.
- *
  * 我再加个3d效果
  * 糊弄一下小姑娘
+ *
  */
 
 body {
@@ -111,14 +111,12 @@ body {
 }
 
 /**
- * 好了，进入正题
+ * 好了，准备工作就绪
  * 
- * 知道乙淇肯定看不了我接下来写的贼矫情的话
+ * 知道乙淇肯定看不了我接下来准备写的贼矫情的话
  * 但是
- * 不行，非得看
- * 
- * 谁让你不考察清楚就做我女朋友嘞
- * 没有退货政策滴
+ * 不行
+ * 非得看
  * 
  */
 

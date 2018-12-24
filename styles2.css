@@ -1,6 +1,6 @@
 
 /**
- * 字体也调一下
+ * 再微调一下
  */
 
 .md {
@@ -18,12 +18,10 @@
   margin: 5px 0;
 }
 
-.md h1, .md h2, .md h3, .md h4, .md h5, .md h6, .md ul, .md p {
-  margin: 0px;
-}
 
 /**
  * 近乎完美
+ * 再加个小心心
  */
 
 #pgp-text {

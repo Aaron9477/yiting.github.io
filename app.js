@@ -29,10 +29,10 @@ document.addEventListener("DOMContentLoaded", function() {
 async function startAnimation() {
   try {
     await writeTo(styleEl, styleText[0], 0, speed, true, 1);
-    await writeTo(workEl, workText, 0, speed, false, 1);
+    await writeTo(workEl, workText, 0, speed/3, false, 1);
     await writeTo(styleEl, styleText[1], 0, speed, true, 1);
     createWorkBox();
-    await Promise.delay(1000);
+    await Promise.delay(100);
     await writeTo(styleEl, styleText[2], 0, speed, true, 1);
     await writeTo(pgpEl, pgpText, 0, speed, false, 32);
     await writeTo(styleEl, styleText[3], 0, speed, true, 1);

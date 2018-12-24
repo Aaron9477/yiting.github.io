@@ -26,7 +26,7 @@ module.exports = {
   },
   devServer: {
     contentBase: __dirname,
-    publicPath: '/dist',
+    publicPath: 'yiting.github.io/dist',
     compress: true,
     port: 4003,
   },

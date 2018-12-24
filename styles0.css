@@ -1,0 +1,128 @@
+/**
+ *
+ * Hey！乙淇！
+ *
+ * 先祝你平安夜快乐🎅
+ *
+ * 再祝你圣诞节快乐🎄
+ *
+ * 思前想后不知道送你啥
+ *
+ * 你不但禁止我买彩妆
+ * 你还禁止我买圣诞节礼物
+ *
+ * 但咋说也是咱俩在一起之后第一个节日
+ * 寻思了一下啥都不干说不过去鸭
+ *
+ * 那就按程序员的方式来吧
+ *
+ */
+
+/**
+ * 代码先动起来看着酷炫点哈
+ */
+
+* {
+  -webkit-transition: all 1s;
+}
+
+/**
+ * 诶，好像不明显
+ * 不着急，一会儿再说
+ *
+ * 黑白看着贼无趣嘞，一点都不搞基
+ * 改一改
+ */
+
+html {
+  background: rgb(63, 82, 99);
+}
+
+/**
+ * 再微调一下
+ */
+
+pre, a {
+  color: white;
+}
+
+/**
+ * 现在还行
+ *
+ * 一个编辑器有点少，想跟乙淇说的话有点多
+ *
+ * 再加一个
+ */
+
+pre:not(:empty) {
+  overflow: auto;
+  background: rgb(48, 48, 48);
+  border: 1px solid #ccc;
+  max-height: 44.6%;
+  width: 49%;
+  font-size: 14px;
+  font-family: monospace;
+  padding: 10px 10px 20px;
+  box-shadow: -4px 4px 2px 0 rgba(0,0,0,0.3);
+  white-space: pre-wrap;
+  outline: 0;
+}
+
+/**
+ * 好了
+ * 放到左边去
+ */
+
+#style-text {
+  -webkit-transform: translateX(95%);
+  position: absolute;
+}
+
+/**
+ * This is good!
+ * 但白字贼单调，不够酷炫
+ * 再来
+ * 代码高亮准备
+ */
+
+.comment       { color: #857F6B; font-style: italic; }
+.selector      { color: #E69F0F; }
+.selector .key { color: #64D5EA; }
+.key           { color: #64D5EA; }
+.value         { color: #BE84F2; }
+.value.px      { color: #F92772; }
+
+/**
+ * Okay!
+ * That's what I'm talking about.
+ *
+ * 我再加个3d效果
+ * 糊弄一下小姑娘
+ */
+
+body {
+  -webkit-perspective: 1000px;
+}
+
+#style-text {
+  -webkit-transform: translateX(98.5%) rotateY(-10deg);
+  -webkit-transform-origin: right;
+  max-height: 94.5%;
+}
+
+/**
+ * 好了，进入正题
+ * 
+ * 知道乙淇肯定看不了我接下来写的贼矫情的话
+ * 但是
+ * 不行，非得看
+ * 
+ * 谁让你不考察清楚就做我女朋友嘞
+ * 没有退货政策滴
+ * 
+ */
+
+pre:not(#style-text) {
+  -webkit-transform: rotateY(10deg);
+  -webkit-transform-origin: left;
+}
